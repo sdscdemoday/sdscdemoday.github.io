@@ -1,0 +1,22 @@
+[
+    {
+        "genre_id": 1,
+        "name": "horror",
+        "description": "Horror"
+    },
+    {
+        "genre_id": 2,
+        "name": "comedy",
+        "description": "Comedy"
+    },
+    {
+        "genre_id": 3,
+        "name": "action",
+        "description": "Action"
+    },
+    {
+        "genre_id": 4,
+        "name": "scifi",
+        "description": "Science Fiction"
+    }
+]

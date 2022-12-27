@@ -1,0 +1,73 @@
+[
+    {
+        "movie_id": 1,
+        "name": "Professor Tan Kian Lee",
+        "image": "images/tkl.png",
+        "type": 3,
+        "typename": "action",
+        "star": 4,
+        "boxOffice": 20000000,
+        "director": "Jack Donkey",
+        "releaseDate": "2021-08-08",
+        "description": "Kian-Lee Tan is a Professor of Computer Science at the School of Computing, National University of Singapore (NUS). He received his Ph.D. in computer science in 1994 from NUS. His current research interests include query processing and optimization in multiprocessor and distributed systems, database performance, data analytics, and database security. Kian-Lee has published over 300 research articles in international journals and conference proceedings, and co-authored several books/monographs...."
+    },
+    {
+        "movie_id": 2,
+        "name": "Master Luke Skywalker",
+        "image": "images/starwars.jpg",
+        "type": 3,
+        "typename": "action",
+        "star": 5,
+        "boxOffice": 50000000,
+        "director": "Zimmerman C.",
+        "releaseDate": "2021-08-08",
+        "description": "Rise of Skywalker, and you can see where he is coming from. Not that the film is agony as such. It's actually a fast-moving, action-packed, swashbuckling swords 'n' sorcery space opera with typically high standards of production design and visual effects..."
+    },
+    {
+        "movie_id": 3,
+        "name": "Dr Christopher",
+        "image": "images/father.jpg",
+        "type": 4,
+        "typename": "scifi",
+        "star": 5,
+        "boxOffice": 50000000,
+        "director": "Stephen Covey",
+        "releaseDate": "2020-09-09",
+        "description": "Back in 2000, a filmmaker named Christopher Nolan made his American debut with Memento, an emotionally brutal thriller about a man named Leonard who is unable to retain a memory for more than five minutes. What was startling about it was the way in which Nolan locks the viewer inside Leonard's mind, so that you too greedily grab on to any morsel..."
+    },
+    {
+        "movie_id": 4,
+        "name": "Professor Leong Tze Yun",
+        "image": "images/leong.png",
+        "type": 3,
+        "typename": "action",
+        "star": 1,
+        "boxOffice": 10000000,
+        "director": "Niki Caro",
+        "releaseDate": "2019-09-09",
+        "description": "LEONG Tze Yun is Professor of Practice of Computer Science at the School of Computing, National University of Singapore. She directs the Medical Computing Laboratory at the School. She is also Director of AI Technology at AI Singapore (www.aisingapore.org)...."
+    },
+    {
+        "movie_id": 5,
+        "name": "The Tomorrow War",
+        "image": "images/war.jpg",
+        "type": 4,
+        "typename": "scifi",
+        "star": 3,
+        "boxOffice": 50000000,
+        "director": "Chris McKay",
+        "releaseDate": "2021-07-07",
+        "description": "You need to know that The Tomorrow War is a sci-fi action movie starring Chris Pratt as a man who's sent to the future to fight a war against aliens that are on the verge of destroying humanity..."
+    },
+    {
+        "movie_id": 6,
+        "FoodName": "Saving Corporal Ryan",
+        "image": "images/ryan.jpg",
+        "type": "Action",
+        "star": 4,
+        "boxOffice": 1000000,
+        "director": "Steven Spielberg",
+        "releaseDate": "1999-09-09",
+        "description": "Saving Private Ryan is his fascinating work about the events during World War II, about courage, friendship, and respect, about love and devotion, devotion to own duties, faith, and people. A war is the time, when people stop appreciating money, fashion, and proper food. It is the time, when only someone’s life and death turn out to be important..."
+    }
+]
