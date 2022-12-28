@@ -55,37 +55,38 @@ const Review = (props) => {
             <div className="mt-4">
                 <nav aria-label="breadcrumb">
                     <ol className="breadcrumb">
-                        <li className="breadcrumb-item"><Link className="link-dark" to="/">Home</Link></li>
-                        <li className="breadcrumb-item active" aria-current="page">Review</li>
+                        <li className="breadcrumb-item"><Link className="link-dark" to="/">Speakers</Link></li>
+                        <li className="breadcrumb-item active" aria-current="page">Profile</li>
                     </ol>
                     </nav>
             </div>
             <article className="shadow-sm review px-4 pb-3">
                 <h1>{movie["name"]}</h1>
-                <span className={"fs-4 stars " + (Number(movie["star"]) > 2 ? "text-warning" : "text-danger")}>
+                <h4 className="text-muted">{movie["org"]}</h4>
+                {/*<span className={"fs-4 stars " + (Number(movie["star"]) > 2 ? "text-warning" : "text-danger")}>
                     {renderStars(movie["star"])}
-                </span>
+                </span>*/}
                 <div className="my-2 stats">
-                    <small className="badge rounded-pill bg-dark">
+                    {/*<small className="badge rounded-pill bg-dark">
                         <i className="bi bi-currency-exchange"></i>
                         Box Office: ${(movie["boxOffice"] / 1000000)} million
                     </small> &bull;
                     <small className="badge rounded-pill bg-dark">
                         <i className="bi bi-person-fill"></i>
                         Directed by: Jack Donkey
-                    </small> &bull;
+                    </small> &bull;*/}
                     <small className="badge rounded-pill bg-dark">
                         <i className="bi bi-camera-reels-fill"></i>
-                        Genre: {movie["typename"]}
+                        Topic: {movie["typename"]}
                     </small>
                 </div>
                 <p className="lead">
                     {movie["description"]}
                 </p>
                 <div className="text-center">
-                    <img className="img-fluid rounded" src={"/" + movie["image"]} alt="fast &amp; furious" />
+                    <img className="img-fluid rounded" src={"/" + movie["image"]} alt="" />
                 </div>
-                <p>
+                {/*<p>
                     For a series that, at least for a while, used to be about nitro-injected street cred and grease-monkey car culture, the Fast & Furious movies really only have two gears. You've got fast and you've got furious. Stunts have gotten bigger, glossier and faker, but even at their worst, they've always been speedy, dangerously so. And just as crucially, every utterance about family out of Vin Diesel's mouth has a ponderous solemnity to it. That's the furious part. Over 20 years, the plots have detoured into globe-hopping spy nonsense - and these muscle cars have definitely hopped, sometimes with their own parachutes - yet the white-hot melodrama has skyrocketed in tandem.
                 </p>
                 <figure className="text-center">
@@ -102,11 +103,11 @@ const Review = (props) => {
                 <img className="img-thumbnail float-end col-3" src="/images/fnf-car.jpg" alt="fast &amp; furious" />
                 <p>
                     As these movies have grown from LA street races to car vs submarine showdowns, its characters have essentially evolved into superheroes. F9 addresses this with a funny bit in which a rattled Roman argues they may be literally invincible. How else could they not only live through all the adventures they've been through, but also do so "without a scratch?" In every frame, Dom's crew looks like they could be posing for character posters or perfume ads: gorgeous, cool, and stoic, no matter what impossible scenario they've just been hurled through. Lin leans into the unflappable fantasy, and it makes the melodrama elements all the more exhilarating. 
-                </p>
+                </p>*/}
             </article>
-            <aside className="shadow-sm review px-4 pt-3 pb-3">
+            {/*<aside className="shadow-sm review px-4 pt-3 pb-3">
                 < Comment comments={[{name: null, comment: "This movie is good but I haven't watched!"}]} />
-            </aside>
+            </aside>*/}
         </div>
     );
 };

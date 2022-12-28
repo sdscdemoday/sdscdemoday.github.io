@@ -279,7 +279,7 @@ const Submit = () => {
     return ( !submitted ?
         <div className="container-fluid form-content my-4 pt-2 pb-4 shadow-sm">
             <div className="title">
-                <h2>Submit Movie Title</h2>
+                <h2>Registration</h2>
             </div>
             <div className="main">
                 { message ?

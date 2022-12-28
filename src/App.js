@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import Layout from "./Layout";
 import Home from "./Home";
 import About from "./About";
+import Program from "./Program";
+import Register from "./Register";
 import Venue from "./Venue";
 import Submit from "./Submit";
 import Review from "./Review";
@@ -87,12 +89,15 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home idb={idb} idbLoaded={idbLoaded} />} />
+          <Route index element={<About idb={idb} idbLoaded={idbLoaded} />} />
           <Route path="about" element={<About />} />
+          <Route path="speaker" element={<Home idb={idb} idbLoaded={idbLoaded} />} />
+          <Route path="program" element={<Program />} />
+          <Route path="register" element={<Register />} />
           <Route path="venue" element={<Venue />} />
           <Route path="submit" element={<Submit />} />
           <Route path="review/:id" element={<Review idb={idb} />} />
-          <Route path="*" element={<Home />} />
+          <Route path="*" element={<About />} />
         </Route>
       </Routes>
     </BrowserRouter>

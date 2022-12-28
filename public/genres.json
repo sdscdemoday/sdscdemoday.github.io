@@ -1,22 +1,22 @@
 [
     {
         "genre_id": 1,
-        "name": "horror",
-        "description": "Horror"
+        "name": "data_science",
+        "description": "Data Science"
     },
     {
         "genre_id": 2,
-        "name": "comedy",
-        "description": "Comedy"
+        "name": "ai",
+        "description": "Artificial Intelligence"
     },
     {
         "genre_id": 3,
-        "name": "action",
-        "description": "Action"
+        "name": "data_engineering",
+        "description": "Data Engineering"
     },
     {
         "genre_id": 4,
-        "name": "scifi",
-        "description": "Science Fiction"
+        "name": "ml",
+        "description": "Machine Learning"
     }
 ]

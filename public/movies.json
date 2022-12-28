@@ -2,9 +2,10 @@
     {
         "movie_id": 1,
         "name": "Professor Tan Kian Lee",
+        "org": "Executive Director, Singapore Data Science Consortium",
         "image": "images/tkl.png",
         "type": 3,
-        "typename": "action",
+        "typename": "data_science",
         "star": 4,
         "boxOffice": 20000000,
         "director": "Jack Donkey",
@@ -13,61 +14,41 @@
     },
     {
         "movie_id": 2,
-        "name": "Master Luke Skywalker",
-        "image": "images/starwars.jpg",
+        "name": "Dr Masoumeh Izadi",
+        "org": "Managing Director, TVConal",
+        "image": "images/izadi.png",
         "type": 3,
-        "typename": "action",
+        "typename": "data_science",
         "star": 5,
         "boxOffice": 50000000,
         "director": "Zimmerman C.",
         "releaseDate": "2021-08-08",
-        "description": "Rise of Skywalker, and you can see where he is coming from. Not that the film is agony as such. It's actually a fast-moving, action-packed, swashbuckling swords 'n' sorcery space opera with typically high standards of production design and visual effects..."
+        "description": "r. Masoumeh Izadi serves as the managing director and the research lead at TVCONAL, a Singapore-based AI company in media and sports.  She currently directs innovative technologies in sports analytics that target the automated creation of more enjoyable, educational, and engaging sports content for viewers and fans..."
     },
     {
         "movie_id": 3,
-        "name": "Dr Christopher",
-        "image": "images/father.jpg",
+        "name": "Dr Steven Hoi",
+        "org": "Managing Director, Salesforce Research Asia",
+        "image": "images/steven.png",
         "type": 4,
-        "typename": "scifi",
+        "typename": "ml",
         "star": 5,
         "boxOffice": 50000000,
         "director": "Stephen Covey",
         "releaseDate": "2020-09-09",
-        "description": "Back in 2000, a filmmaker named Christopher Nolan made his American debut with Memento, an emotionally brutal thriller about a man named Leonard who is unable to retain a memory for more than five minutes. What was startling about it was the way in which Nolan locks the viewer inside Leonard's mind, so that you too greedily grab on to any morsel..."
+        "description": "Prof. Steven C.H. Hoi is currently the Managing Director of Salesforce Research Asia at Salesforce and oversees Salesforce's AI research and development activities in APAC. He is also the Professor of Computer Science (on leave) at the School of Computing and Information Systems, Singapore Management University..."
     },
     {
         "movie_id": 4,
         "name": "Professor Leong Tze Yun",
+        "org": "Director of AI Technology, AI Singapore",
         "image": "images/leong.png",
         "type": 3,
-        "typename": "action",
+        "typename": "data_science",
         "star": 1,
         "boxOffice": 10000000,
         "director": "Niki Caro",
         "releaseDate": "2019-09-09",
         "description": "LEONG Tze Yun is Professor of Practice of Computer Science at the School of Computing, National University of Singapore. She directs the Medical Computing Laboratory at the School. She is also Director of AI Technology at AI Singapore (www.aisingapore.org)...."
-    },
-    {
-        "movie_id": 5,
-        "name": "The Tomorrow War",
-        "image": "images/war.jpg",
-        "type": 4,
-        "typename": "scifi",
-        "star": 3,
-        "boxOffice": 50000000,
-        "director": "Chris McKay",
-        "releaseDate": "2021-07-07",
-        "description": "You need to know that The Tomorrow War is a sci-fi action movie starring Chris Pratt as a man who's sent to the future to fight a war against aliens that are on the verge of destroying humanity..."
-    },
-    {
-        "movie_id": 6,
-        "FoodName": "Saving Corporal Ryan",
-        "image": "images/ryan.jpg",
-        "type": "Action",
-        "star": 4,
-        "boxOffice": 1000000,
-        "director": "Steven Spielberg",
-        "releaseDate": "1999-09-09",
-        "description": "Saving Private Ryan is his fascinating work about the events during World War II, about courage, friendship, and respect, about love and devotion, devotion to own duties, faith, and people. A war is the time, when people stop appreciating money, fashion, and proper food. It is the time, when only someone’s life and death turn out to be important..."
     }
 ]

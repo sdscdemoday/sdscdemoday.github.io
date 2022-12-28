@@ -95,8 +95,9 @@ const Home = (props) => {
                                 <article className="card">
                                     <div className="card-body">
                                         <Link className="link-dark" to={"/review/" + movie["movie_id"]}>
-                                            <h4 className="card-title">{movie["name"]}</h4>
+                                            <h5 className="card-title">{movie["name"]}</h5>
                                         </Link>
+                                        <h6 class="card-subtitle mb-2 text-muted">{movie["org"]}</h6>
                                         {/*<span className={star > 2 ? "text-warning" : "text-danger" + " stars"}>
                                             {strStars}
                                         </span>*/}
