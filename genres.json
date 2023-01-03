@@ -1,0 +1,22 @@
+[
+    {
+        "genre_id": 1,
+        "name": "data_science",
+        "description": "Data Science"
+    },
+    {
+        "genre_id": 2,
+        "name": "ai",
+        "description": "Artificial Intelligence"
+    },
+    {
+        "genre_id": 3,
+        "name": "data_engineering",
+        "description": "Data Engineering"
+    },
+    {
+        "genre_id": 4,
+        "name": "ml",
+        "description": "Machine Learning"
+    }
+]

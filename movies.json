@@ -1,0 +1,54 @@
+[
+    {
+        "movie_id": 1,
+        "name": "Professor Tan Kian Lee",
+        "org": "Executive Director, Singapore Data Science Consortium",
+        "image": "images/tkl.png",
+        "type": 3,
+        "typename": "data_science",
+        "star": 4,
+        "boxOffice": 20000000,
+        "director": "Jack Donkey",
+        "releaseDate": "2021-08-08",
+        "description": "Kian-Lee Tan is a Professor of Computer Science at the School of Computing, National University of Singapore (NUS). He received his Ph.D. in computer science in 1994 from NUS. His current research interests include query processing and optimization in multiprocessor and distributed systems, database performance, data analytics, and database security. Kian-Lee has published over 300 research articles in international journals and conference proceedings, and co-authored several books/monographs...."
+    },
+    {
+        "movie_id": 2,
+        "name": "Dr Masoumeh Izadi",
+        "org": "Managing Director, TVConal",
+        "image": "images/izadi.png",
+        "type": 3,
+        "typename": "data_science",
+        "star": 5,
+        "boxOffice": 50000000,
+        "director": "Zimmerman C.",
+        "releaseDate": "2021-08-08",
+        "description": "r. Masoumeh Izadi serves as the managing director and the research lead at TVCONAL, a Singapore-based AI company in media and sports.  She currently directs innovative technologies in sports analytics that target the automated creation of more enjoyable, educational, and engaging sports content for viewers and fans..."
+    },
+    {
+        "movie_id": 3,
+        "name": "Dr Steven Hoi",
+        "org": "Managing Director, Salesforce Research Asia",
+        "image": "images/steven.png",
+        "type": 4,
+        "typename": "ml",
+        "star": 5,
+        "boxOffice": 50000000,
+        "director": "Stephen Covey",
+        "releaseDate": "2020-09-09",
+        "description": "Prof. Steven C.H. Hoi is currently the Managing Director of Salesforce Research Asia at Salesforce and oversees Salesforce's AI research and development activities in APAC. He is also the Professor of Computer Science (on leave) at the School of Computing and Information Systems, Singapore Management University..."
+    },
+    {
+        "movie_id": 4,
+        "name": "Professor Leong Tze Yun",
+        "org": "Director of AI Technology, AI Singapore",
+        "image": "images/leong.png",
+        "type": 3,
+        "typename": "data_science",
+        "star": 1,
+        "boxOffice": 10000000,
+        "director": "Niki Caro",
+        "releaseDate": "2019-09-09",
+        "description": "LEONG Tze Yun is Professor of Practice of Computer Science at the School of Computing, National University of Singapore. She directs the Medical Computing Laboratory at the School. She is also Director of AI Technology at AI Singapore (www.aisingapore.org)...."
+    }
+]
