@@ -33,7 +33,7 @@ const Venue = () => {
         <div className="container-fluid main-content">
             <div className="center mt-4">
                 <h1>Event Venue</h1>
-                <p>The event is hosted at NUS Com 3, 11 Research Link, Singapore 119391.</p>
+                <p>The event is hosted at Shaw Foundation Alumni House, 11 Kent Ridge Drive, Singapore 119244.</p>
                 <div className="fs-5 col-10 col-md-6 mx-auto">
                     <table className="table table-borderless contact">
                         <thead className="float-start fw-bolder">
