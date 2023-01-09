@@ -49,7 +49,7 @@ const Venue = () => {
                                 <td><a className="link-dark" href="tel:+6588990000">+65 88990000</a></td>
                             </tr>
                             <tr>
-                                <td>11 Research Link <br/> Singapore 119391</td>
+                                <td>11 Kent Ridge Drive <br/> Singapore 119244</td>
                             </tr>
                         </tbody>
                     </table>
