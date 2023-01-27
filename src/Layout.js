@@ -14,7 +14,7 @@ const Layout = () => {
 
                     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                         <div className="container-fluid">
-                            <a className="navbar-brand" href="#">AI Industry Forum Day</a>
+                            <a className="navbar-brand" href="#">IDSAI 2023</a>
 
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@ const Layout = () => {
                                 <ul className="navbar-nav">
                                     <li className="nav-item"><Link className={"nav-link " + (location.pathname === "/about" ? "active" : "")} to="/about">Home</Link></li>
                                     <li className="nav-item"><Link className={"nav-link " + (location.pathname === "/speaker" ? "active" : "")} to="/speaker">Speakers</Link></li>
-                                    <li className="nav-item"><Link className={"nav-link " + (location.pathname === "/program" ? "active" : "")} to="/program">Program</Link></li>
+                                    {/*<li className="nav-item"><Link className={"nav-link " + (location.pathname === "/program" ? "active" : "")} to="/program">Program</Link></li>*/}
                                     <li className="nav-item"><Link className={"nav-link " + (location.pathname === "/contact" ? "active" : "")} to="/venue">Venue</Link></li>
                                     <li className="nav-item"><Link className={"nav-link " + (location.pathname === "/submit" ? "active" : "")} to="/register">Register</Link></li>
                                 </ul>

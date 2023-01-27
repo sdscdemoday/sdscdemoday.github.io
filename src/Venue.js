@@ -83,8 +83,8 @@ const Venue = () => {
                         <input type="radio" className="btn-check" name="btnradio" id="rdbBus2" onChange={() => {onChangeHandler("Clementi MRT, Singapore", "bus")}} autoComplete="off"></input>
                         <label className="btn btn-outline-primary" htmlFor="rdbBus2">Clementi MRT</label>
                     
-                        <input type="radio" className="btn-check" name="btnradio" id="rdbBus3" onChange={() => {onChangeHandler("Kent Ridge Terminal, Singapore", "bus")}} autoComplete="off"></input>
-                        <label className="btn btn-outline-primary" htmlFor="rdbBus3">Kent Ridge Bus Terminal</label>
+                        {/*<input type="radio" className="btn-check" name="btnradio" id="rdbBus3" onChange={() => {onChangeHandler("Kent Ridge Terminal, Singapore", "bus")}} autoComplete="off"></input>
+                        <label className="btn btn-outline-primary" htmlFor="rdbBus3">Kent Ridge Bus Terminal</label>*/}
                     </div> : <i>Loading services...</i>
                 }
             </div>
