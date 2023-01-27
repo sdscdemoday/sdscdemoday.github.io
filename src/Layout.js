@@ -9,10 +9,10 @@ const Layout = () => {
     <div className="container overflow-hidden">
         <div className="row justify-content-lg-center">
             <div className="col-lg-8 px-0">
-                <header className="border border-dark bg-dark">
-                    <img className="img-fluid col-2 mx-2 my-2" alt="Film.sg" src="/images/banner3.png" />
+                <header className="border border-dark bg-black">
+                    <img className="img-fluid col-6" alt="Film.sg" src="/images/banner4.jpg" />
 
-                    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <nav className="navbar navbar-expand-lg navbar-dark bg-black">
                         <div className="container-fluid">
                             <a className="navbar-brand" href="#">IDSAI 2023</a>
 
