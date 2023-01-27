@@ -4,16 +4,6 @@ self.addEventListener("install", event => {
     event.waitUntil(
         caches.open("static-cache-v1").then(cache => cache.addAll([
         "./images/banner.png",
-        "./images/father.jpg",
-        "./images/film-logo.jpg",
-        "./images/fnf-car.jpg",
-        "./images/fnf.jpg",
-        "./images/man.jpg",
-        "./images/mulan.jpg",
-        "./images/ryan.jpg",
-        "./images/skyline.png",
-        "./images/starwars.jpg",
-        "./images/war.jpg",
         "./",
         "./index.html",
         "./favicon.ico",

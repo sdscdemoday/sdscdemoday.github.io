@@ -7,7 +7,7 @@ const Register = () => {
                     Please click the link below to register your attendance.
                 </p>
                 <p>
-                    <button type="button" class="btn btn-warning">Register Now</button>
+                    <a type="button" className="btn btn-warning" href="https://idsai2023.eventbrite.sg/" target="_blank">Register Now</a>
                 </p>
                 <div className="my-2 text-center seperator">
                     &bull; &bull; &bull;

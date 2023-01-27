@@ -14,7 +14,7 @@ const About = () => {
                     &bull; &bull; &bull;
                 </div>
                 <div className="text-center">
-                    <img className="img-fluid rounded" src={"/images/banner.jpg"} alt="" />
+                    <img className="img-fluid rounded" src={"/images/demo_day_evb_bnr.jpg"} alt="" />
                 </div>
                 <div className="my-2 text-center seperator">
                     &bull; &bull; &bull;

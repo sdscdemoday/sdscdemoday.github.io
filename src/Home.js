@@ -71,6 +71,17 @@ const Home = (props) => {
         });
     }
 
+    const shortenParagraph = (value) => {
+        const MAX_WORDS = 50;
+        let words = value.split(" ");
+        let shortenedWords = words.slice(0, MAX_WORDS);
+        if (words.length > MAX_WORDS) {
+            shortenedWords.push("...");
+        }
+        let shortenedValue = shortenedWords.join(" ");
+        return shortenedValue;
+    }
+
     return (
         <div className="main-content">
             <Search onSearch={searchMoviesByTitle} allGenres={genres} defaultGenre={defaultGenre} />
@@ -104,8 +115,13 @@ const Home = (props) => {
                                     </div>
                                     <img className="card-img" src={movie["image"]} alt={movie["name"]} />
                                     <div className="card-body">
+                                        <Link className="link-dark text-decoration-none" to={"/review/" + movie["movie_id"]}>
+                                            <i class="card-subtitle mb-2">Topic: {Boolean(movie["title"]?.trim()) ? movie["title"] : "TBC"}</i>
+                                        </Link>
+                                    </div>
+                                    <div className="card-footer">
                                         <p className="card-text">
-                                            {movie["description"]}
+                                            {shortenParagraph(movie["description"])}
                                         </p>
                                     </div>
                                 </article>

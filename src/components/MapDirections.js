@@ -42,11 +42,19 @@ const MapDirections = (props) => {
         props.onDirectionLoad(calculateAndDisplayRoute);
     };
 
-    const calculateAndDisplayRoute = (value) => {
+    const calculateAndDisplayRoute = (value, method) => {
+        if (method === "walking") {
+            calculateAndDisplayRouteWalk(value);
+        } else if (method === "bus") {
+            calculateAndDisplayRouteBus(value);
+        }
+    }
+
+    const calculateAndDisplayRouteWalk = (value) => {
 
         directionsService.route({
             origin: value,
-            destination: "11 Research Link, Singapore",
+            destination: "11 Kent Ridge Drive, Singapore",
             travelMode: window.google.maps.TravelMode.WALKING,
         }, result => {
 
@@ -59,6 +67,20 @@ const MapDirections = (props) => {
         /*.then((response) => { // This junk doesn't work
             directionsRenderer.setDirections(response);
         }).catch(event => alert("Directions request failed: " + event));*/
+    }
+
+    const calculateAndDisplayRouteBus = (value) => {
+
+        directionsService.route({
+            origin: value,
+            destination: "11 Kent Ridge Drive, Singapore",
+            travelMode: window.google.maps.TravelMode.TRANSIT,
+        }, result => {
+
+            props.onDirection();
+
+            directionsRenderer.setDirections(result);
+        });
     }
 
     return (<div id="sidebar" ref={directionsRef} className={props.className}></div>);

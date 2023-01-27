@@ -16,8 +16,8 @@ const Venue = () => {
         setDirectionLoaded(true);
     }
 
-    const onChangeHandler = (keyword) => {
-        defaultDirection(keyword);
+    const onChangeHandler = (keyword, method) => {
+        defaultDirection(keyword, method);
     }
 
     const onDirection = () => {
@@ -34,7 +34,7 @@ const Venue = () => {
             <div className="center mt-4">
                 <h1>Event Venue</h1>
                 <p>The event is hosted at Shaw Foundation Alumni House, 11 Kent Ridge Drive, Singapore 119244.</p>
-                <div className="fs-5 col-10 col-md-6 mx-auto">
+                <div className="fs-5 col-10 col-md-8 mx-auto">
                     <table className="table table-borderless contact">
                         <thead className="float-start fw-bolder">
                             <tr>
@@ -46,7 +46,7 @@ const Venue = () => {
                         </thead>
                         <tbody className="float-end">
                             <tr>
-                                <td><a className="link-dark" href="tel:+6588990000">+65 88990000</a></td>
+                                <td><a className="link-dark" href="tel:+6566017820">+65 66017820</a></td>
                             </tr>
                             <tr>
                                 <td>11 Kent Ridge Drive <br/> Singapore 119244</td>
@@ -59,18 +59,33 @@ const Venue = () => {
                 <Map onMapLoad={onMapLoad} />
             </div>
             <div className="text-center mb-4">
-                <p className="lead">Get Direction From: </p>
-                { directionLoaded ? 
+                <p className="lead">Get Direction from Nearby</p>
+                <p className="mx-2 my-2">🚶 I am walking:</p>
+                { directionLoaded ?
                     <div className="btn-group" role="group" aria-label="Get Direction From" id="rdbGroup">
-                        <input type="radio" className="btn-check" name="btnradio" id="rdbMRTDover" onChange={() => {onChangeHandler("Kent Ridge MRT, Singapore")}} autoComplete="off"></input>
-                        <label className="btn btn-outline-primary" htmlFor="rdbMRTDover">Kent Ridge MRT</label>
+                        <input type="radio" className="btn-check" name="btnradio" id="rdbWalk1" onChange={() => {onChangeHandler("Kent Ridge MRT, Singapore", "walking")}} autoComplete="off"></input>
+                        <label className="btn btn-outline-primary" htmlFor="rdbWalk1">Kent Ridge MRT</label>
 
-                        <input type="radio" className="btn-check" name="btnradio" id="rdbMRTBuonaVista" onChange={() => {onChangeHandler("Clementi MRT, Singapore")}} autoComplete="off"></input>
-                        <label className="btn btn-outline-primary" htmlFor="rdbMRTBuonaVista">Clementi MRT</label>
+                        <input type="radio" className="btn-check" name="btnradio" id="rdbWalk2" onChange={() => {onChangeHandler("Clementi MRT, Singapore", "walking")}} autoComplete="off"></input>
+                        <label className="btn btn-outline-primary" htmlFor="rdbWalk2">Clementi MRT</label>
                     
-                        <input type="radio" className="btn-check" name="btnradio" id="rdbBus" onChange={() => {onChangeHandler("Kent Ridge Terminal, Singapore")}} autoComplete="off"></input>
-                        <label className="btn btn-outline-primary" htmlFor="rdbBus">Kent Ridge Bus Terminal</label>
-                    </div> : <></>
+                        <input type="radio" className="btn-check" name="btnradio" id="rdbWalk3" onChange={() => {onChangeHandler("Kent Ridge Terminal, Singapore", "walking")}} autoComplete="off"></input>
+                        <label className="btn btn-outline-primary" htmlFor="rdbWalk3">Kent Ridge Bus Terminal</label>
+                    </div> : <i>Loading services...</i>
+                }
+                <br />
+                <p className="mx-2 my-2">🚌 I am traveling by bus:</p>
+                { directionLoaded ?
+                    <div className="btn-group" role="group" aria-label="Bus Direction From" id="rdbGroup2">
+                        <input type="radio" className="btn-check" name="btnradio" id="rdbBus1" onChange={() => {onChangeHandler("Kent Ridge MRT, Singapore", "bus")}} autoComplete="off"></input>
+                        <label className="btn btn-outline-primary" htmlFor="rdbBus1">Kent Ridge MRT</label>
+
+                        <input type="radio" className="btn-check" name="btnradio" id="rdbBus2" onChange={() => {onChangeHandler("Clementi MRT, Singapore", "bus")}} autoComplete="off"></input>
+                        <label className="btn btn-outline-primary" htmlFor="rdbBus2">Clementi MRT</label>
+                    
+                        <input type="radio" className="btn-check" name="btnradio" id="rdbBus3" onChange={() => {onChangeHandler("Kent Ridge Terminal, Singapore", "bus")}} autoComplete="off"></input>
+                        <label className="btn btn-outline-primary" htmlFor="rdbBus3">Kent Ridge Bus Terminal</label>
+                    </div> : <i>Loading services...</i>
                 }
             </div>
             { mapLoaded ? /* Lifecycle: Map must be loaded before rendering directions panel */

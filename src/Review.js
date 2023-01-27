@@ -55,7 +55,7 @@ const Review = (props) => {
             <div className="mt-4">
                 <nav aria-label="breadcrumb">
                     <ol className="breadcrumb">
-                        <li className="breadcrumb-item"><Link className="link-dark" to="/">Speakers</Link></li>
+                        <li className="breadcrumb-item"><Link className="link-dark" to="/speaker">Speakers</Link></li>
                         <li className="breadcrumb-item active" aria-current="page">Profile</li>
                     </ol>
                     </nav>
@@ -73,19 +73,33 @@ const Review = (props) => {
                     </small> &bull;
                     <small className="badge rounded-pill bg-dark">
                         <i className="bi bi-person-fill"></i>
-                        Directed by: Jack Donkey
+                        Title: {movie["title"]}
                     </small> &bull;*/}
                     <small className="badge rounded-pill bg-dark">
                         <i className="bi bi-camera-reels-fill"></i>
                         Topic: {movie["typename"]}
                     </small>
                 </div>
+                <div className="my-2 text-center seperator">
+                    &bull; &bull; &bull;
+                </div>
+                <figure className="text-center">
+                    <blockquote className="blockquote">
+                        {Boolean(movie["title"]?.trim()) ? movie["title"] : "TBC"}
+                    </blockquote>
+                </figure>
                 <p className="lead">
+                    {movie["abstract"]}
+                </p>
+                <div className="my-2 text-center seperator">
+                    &bull; &bull; &bull;
+                </div>
+                <div className="text-center">
+                    <img className="img-thumbnail rounded" src={"/" + movie["imageLarge"]} alt="" />
+                </div>
+                <p>
                     {movie["description"]}
                 </p>
-                <div className="text-center">
-                    <img className="img-fluid rounded" src={"/" + movie["image"]} alt="" />
-                </div>
                 {/*<p>
                     For a series that, at least for a while, used to be about nitro-injected street cred and grease-monkey car culture, the Fast & Furious movies really only have two gears. You've got fast and you've got furious. Stunts have gotten bigger, glossier and faker, but even at their worst, they've always been speedy, dangerously so. And just as crucially, every utterance about family out of Vin Diesel's mouth has a ponderous solemnity to it. That's the furious part. Over 20 years, the plots have detoured into globe-hopping spy nonsense - and these muscle cars have definitely hopped, sometimes with their own parachutes - yet the white-hot melodrama has skyrocketed in tandem.
                 </p>

@@ -19,7 +19,7 @@ const Map = (props) => {
 
     const loadMap = () => {
         //let div = document.getElementById("map");
-        let latLng = {lat: 1.2950436162190226, lng: 103.7746112106664};
+        let latLng = {lat: 1.2932431218318035, lng: 103.77338741508575};
 
         map = new window.google.maps.Map(mapRef.current, {
             center: latLng,
