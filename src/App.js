@@ -28,12 +28,12 @@ function App() {
 
     // Track Past IDB Versions
     const IDB_VERSIONS = {
-      FEB_07: 2,
+      CURRENT: 2,
       JAN_27: 1
     };
 
     // Open IDB
-    let request = window.indexedDB.open("movies", IDB_VERSIONS.FEB_07);
+    let request = window.indexedDB.open("movies", IDB_VERSIONS.CURRENT);
 
     request.onerror = event => {
         console.log("Error opening IDB.");
@@ -42,6 +42,13 @@ function App() {
     request.onupgradeneeded = function(event) { // New idb version avaliable
 
         let idb = event.target.result;
+
+        if (event.oldVersion < 1) {
+          // Version 0: Store don't exist, do nothing
+        } else if (event.oldVersion < IDB_VERSIONS.CURRENT) {
+          // Delete to upgrade
+          idb.deleteObjectStore("movies");
+        }
 
         // Create object store
         let store = idb.createObjectStore("movies", {keyPath: "movie_id"});
