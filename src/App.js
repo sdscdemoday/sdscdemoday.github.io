@@ -26,8 +26,14 @@ function App() {
         return;
     }
 
+    // Track Past IDB Versions
+    const IDB_VERSIONS = {
+      FEB_07: 2,
+      JAN_27: 1
+    };
+
     // Open IDB
-    let request = window.indexedDB.open("movies", 1);
+    let request = window.indexedDB.open("movies", IDB_VERSIONS.FEB_07);
 
     request.onerror = event => {
         console.log("Error opening IDB.");
