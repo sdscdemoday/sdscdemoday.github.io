@@ -24,7 +24,7 @@ const Program = () => {
                             <td>Level 2 Foyer</td>
                         </tr>
                         <tr>
-                            <th scope="row">9.00am</th>
+                            <th scope="row">9:00am</th>
                             <td>
                                 <span className="fw-bold">
                                     Opening Remarks by Singapore Data Science Consortium
@@ -67,7 +67,7 @@ const Program = () => {
                             <td>Auditorium</td>
                         </tr>
                         <tr>
-                            <th scope="row">10.00am</th>
+                            <th scope="row">10:00am</th>
                             <td>
                                 <span className="fw-bold">
                                 Making Defence Your Best Attack - How MLOps Can Make You Comply with Regulatory Requirements (Responsible AI and others) and Help You Drive ROI on AI-based Applications/Processes
@@ -90,88 +90,111 @@ const Program = () => {
                             <td>Level 2 Foyer</td>
                         </tr>
                         <tr>
-                            <th scope="row">11.10am</th>
-                            <td colSpan="2">
-                                {/* First Breakout Sessions */}
-                                <table className="table">
-                                    <tbody>
-                                        <tr>
-                                            <td className="pt-0 px-0">
-                                                <span className="fw-bold text-primary">Breakout Room 1:</span><br/>
-                                                <span className="fw-bold">
-                                                Making Defence Your Best Attack - How MLOps Can Make You Comply with Regulatory Requirements (Responsible AI and others) and Help You Drive ROI on AI-based Applications/Processes
-                                                </span>
-                                                <br />Dr Carlos Queiroz
-                                                <span className="fst-italic">
-                                                    <br />Head of Data Science Engineering (CCIB), 
-                                                    <br />Standard Chartered Bank
-                                                </span>
-                                            </td>
-                                            <td>Auditorium</td>
-                                        </tr>
-                                        <tr>
-                                            <td className="pt-0 px-0">
-                                                <span className="fw-bold text-primary">Breakout Room 2:</span><br/>
-                                                <span className="fw-bold">
-                                                Play, Consume, and Innovate Sports in AI Era
-                                                </span>
-                                                <br />Dr Masoumeh Izadi
-                                                <span className="fst-italic">
-                                                    <br />Founder and Managing Director, Television Content Analytics (TVCONAL)
-                                                </span>
-                                            </td>
-                                            <td>Clove</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-
+                            {/* Parallel Track 1 */}
+                            <td colSpan={3} className="bg-warning text-center">
+                                <span className="fw-bold">Parallel Track 1</span><br/>
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row">11.50am</th>
-                            <td colSpan="2">
-                                {/* Second Breakout Sessions */}
-                                <table className="table">
-                                    <tbody>
-                                        <tr>
-                                            <td className="pt-0 px-0">
-                                                <span className="fw-bold text-primary">Breakout Room 1:</span><br/>
-                                                <span className="fw-bold">
-                                                Exploiting Pre-trained Models, Compositionality, and Reasoning Algorithms for Visual-Language Object Placement
-                                                </span>
-                                                <br />Prof Lee Wee Sun
-                                                <span className="fst-italic">
-                                                    <br />Head, Department of Computer Science, 
-                                                    <br />School of Computing, National University of Singapore
-                                                </span>
-                                            </td>
-                                            <td>Auditorium</td>
-                                        </tr>
-                                        <tr>
-                                            <td className="pt-0 px-0">
-                                                <span className="fw-bold text-primary">Breakout Room 2:</span><br/>
-                                                <span className="fw-bold">
-                                                Building Intelligent Applications: A Blueprint for Harnessing the Power of Data, AI, and Analytics to Drive Business
-                                                </span>
-                                                <br />Mr Amenallah Reghimi
-                                                <span className="fst-italic">
-                                                    <br />Chief Product & Technology Officer, Perx Technologies
-                                                </span>
-                                            </td>
-                                            <td>Clove</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-
+                            <th scope="row">11:10am</th>
+                            <td>
+                                <span className="fw-bold text-primary">Talk 1:</span><br/>
+                                <span className="fw-bold">
+                                Computational Models of Human Strategic Behavior
+                                </span>
+                                <br />Assoc Prof Cheng Shih-Fen
+                                <span className="fst-italic">
+                                    <br />Associate Professor of Computer Science,
+                                    <br />School of Computing and Information Systems,
+                                    <br />Singapore Management University
+                                </span>
+                            </td>
+                            <td>Auditorium</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">11:40am</th>
+                            <td>
+                                <span className="fw-bold text-primary">Talk 2:</span><br/>
+                                <span className="fw-bold">
+                                Exploiting Pre-trained Models, Compositionality, and Reasoning Algorithms for Visual-Language Object Placement
+                                </span>
+                                <br />Prof Lee Wee Sun
+                                <span className="fst-italic">
+                                    <br />Head, Department of Computer Science, 
+                                    <br />School of Computing, National University of Singapore
+                                </span>
+                            </td>
+                            <td>Auditorium</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">12:10pm</th>
+                            <td>
+                                <span className="fw-bold text-primary">Talk 3:</span><br/>
+                                <span className="fw-bold">
+                                Practice of Code Intelligence in ByteDance
+                                </span>
+                                <br />Zheng (John) Wang
+                                <span className="fst-italic">
+                                    <br />Staff Software Engineer, ByteDance
+                                </span>
+                            </td>
+                            <td>Auditorium</td>
+                        </tr>
+                        <tr>
+                            {/* Parallel Track 2 */}
+                            <td colSpan={3} className="bg-success text-center text-light">
+                                <span className="fw-bold">Parallel Track 2</span><br/>
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row">12:30pm</th>
+                            <th scope="row">11:10am</th>
+                            <td>
+                                <span className="fw-bold text-primary">Talk 1:</span><br/>
+                                <span className="fw-bold">
+                                Play, Consume, and Innovate Sports in AI Era
+                                </span>
+                                <br />Dr Masoumeh Izadi
+                                <span className="fst-italic">
+                                    <br />Founder and Managing Director, Television Content Analytics (TVCONAL)
+                                </span>
+                            </td>
+                            <td>Clove</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">11:40am</th>
+                            <td>
+                                <span className="fw-bold text-primary">Talk 2:</span><br/>
+                                <span className="fw-bold">
+                                Building Intelligent Applications: A Blueprint for Harnessing the Power of Data, AI, and Analytics to Drive Business
+                                </span>
+                                <br />Mr Amenallah Reghimi
+                                <span className="fst-italic">
+                                    <br />Chief Product & Technology Officer, Perx Technologies
+                                </span>
+                            </td>
+                            <td>Clove</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">12:10pm</th>
+                            <td>
+                                <span className="fw-bold text-primary">Talk 3:</span><br/>
+                                <span className="fw-bold">
+                                TBA
+                                </span>
+                                <br />Mr Vivek Gopalkrishnan
+                                <span className="fst-italic">
+                                    <br />PwC
+                                </span>
+                            </td>
+                            <td>Clove</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">12:40pm</th>
                             <td><span className="fw-bold">Lunch and Demo Session</span></td>
                             <td>Level 2 Foyer / Lavender</td>
                         </tr>
                         <tr>
-                            <th scope="row">1:45pm</th>
+                            <th scope="row">2:00pm</th>
                             <td>
                                 <span className="fw-bold">
                                 Multimodal Intelligence: Foundation Models and Beyond 
@@ -184,7 +207,7 @@ const Program = () => {
                             <td>Auditorium</td>
                         </tr>
                         <tr>
-                            <th scope="row">2:30pm</th>
+                            <th scope="row">2:45pm</th>
                             <td>
                                 <span className="fw-bold">
                                 Panel Discussion - Data Intelligence

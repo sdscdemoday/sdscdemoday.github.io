@@ -105,10 +105,26 @@
         "typename": "data_science",
         "star": 5,
         "boxOffice": 10000000,
-        "director": "Niki Caro",
+        "director": "",
         "releaseDate": "2019-09-09",
         "title": "How the Risk Landscape Evolved through Pandemic",
         "abstract": "Sumit will talk about how their AI/ML practice evolved during the pandemic. Also, how their views on some data had to change during COVID-19. As well as what new data elements became more important.",
         "description": ""
+    },
+    {
+        "movie_id": 8,
+        "name": "Mr John Wang",
+        "org": "Staff Software Engineer, Bytedance",
+        "image": "images/johnwang.jpg",
+        "imageLarge": "images/johnwang.jpg",
+        "type": 2,
+        "typename": "ai",
+        "star": 5,
+        "boxOffice": 0,
+        "director": "",
+        "releaseDate": "2019-09-09",
+        "title": "Practice of Code Intelligence in Bytedance",
+        "abstract": "The rapid growth of ByteDance is accompanied by a significant increase in source codes, including client applications, microservices, shared libraries, and helper scripts. These codes aim to ensure stable content delivery and efficient research and development processes. Dev Infra team dedicated themselves to code graph and code discovery, resulting in significant improved developer experience. However, some challenges remain, such as inconsistent or careless implementation by engineers who may reuse similar code snippets, leading to duplicated defects and security issues. To address these challenges, the team continued to explore Code Intelligent Solutions. John will introduce two main internal services that will make it easier for developers to maintain code quality in the development process.",
+        "description": "John is a staff software engineer at Bytedance Singapore, and currently dedicated to providing and optimizing the company's internal code management and search products. John obtained a bachelor's degree in Computer Science from East China University of Science and Technology in 2011 and his MSc from University of Bath in 2017. John has over 10 years of software development experience and has previously worked at Array Networks and Intel's Asia-Pacific R&D Center."
     }
 ]
