@@ -83,7 +83,7 @@
         "movie_id": 6,
         "name": "Professor Cheng Shih Fen",
         "org": "Associate Professor of Computer Science, School of Computing and Information Systems, Singapore Management University",
-        "image": "images/chengshihfen.jpg",
+        "image": "images/chengshihfen2.jpg",
         "imageLarge": "images/chengshihfen.jpg",
         "type": 3,
         "typename": "data_science",
@@ -92,8 +92,8 @@
         "director": "Niki Caro",
         "releaseDate": "2019-09-09",
         "title": "Computational Models of Human Strategic Behavior",
-        "abstract": "",
-        "description": ""
+        "abstract": "In economics, psychology, and artificial intelligence, researchers have long been intrigued by how humans make decisions. Now that data and computing power are ubiquitous, we can compose computational models to quantify and predict human actions in competitive and strategic environments. This talk provides an overview of computational strategic decision making. Additionally, I will discuss how these computational tools can assist in policy-making.",
+        "description": "Shih-Fen Cheng is an Associate Professor of Computer Science at the Singapore Management University. He received his Ph.D. degree in industrial and operations engineering from the University of Michigan, Ann Arbor. His research focuses on the modeling and optimization of complex systems in engineering and business domains, with application in the areas of urban computing and human decision-making. He is particularly concerned about the real-world impact of his research, as illustrated by his recent research on taxi and ride-hailing industry. His research outputs and deployed system have received prestigious international awards from CIKM, AAMAS, and INFORMS."
     },
     {
         "movie_id": 7,
