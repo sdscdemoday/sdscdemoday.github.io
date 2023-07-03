@@ -4,9 +4,9 @@
     "display": "Standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "IDSAI",
-    "short_name": "IDSAI",
-    "description": "AI Industry Forum Day",
+    "name": "SDSC",
+    "short_name": "SDSC",
+    "description": "SDSC Industry Demo Day",
     "icons": [
         {
             "src": "windows11/SmallTile.scale-100.png",
