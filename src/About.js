@@ -2,28 +2,25 @@ const About = () => {
     return (
         <div className="container-fluid main-content">
             <article className="about mt-4">
-                <h1>About Industry &amp; Demo Day for Data Science &amp; AI 2023</h1>
+                <h1>About Singapore Data Science Consortium Industry Demo Day 2023 – Data Science in Practice</h1>
                 <img className="img-thumbnail float-end col-3" src="./images/IDSAI.png" alt="about film singapore" />
                 <p className="lead">
-                    This Industry Day <cite>(IDSAI)</cite> aims to bring researchers and developers in Industry and Academics together in the area of Data Science and AI.
+                    SDSC's bi-annual Industry Demo Day is an exciting event that brings together data enthusiasts, professionals, and aspiring data scientists to showcase the impact of data-driven projects and innovations. It serves as a platform to demonstrate the power of data science in solving real-world problems, driving decision-making, and unlocking new opportunities.
                 </p>
                 <p>
-                    Opening speakers include Prof. Tan Kian Lee (SoC Dean and Executive Director of Singapore Data Science Consortium) and A/Prof Harold Soh (Assoc. Director of NUSAiL). The industry keynote speaker will be Dr. Steven Hoi (Managing Director of Salesforce Research Asia).
-                </p>
-                <p>
-                    IDSAI will feature a number of invited talks, research demos, and a panel (Data Intelligence) from industry and academics. The program aims to start at 9 am and finish at 4pm on 21 Feb 2023.
+                    The event provides an opportunity for participants to present their projects and innovations, exchange ideas, and foster collaboration within the data science community. Through these project presentations and innovation showcases, workshops and networking, the event highlights the transformative power of data insights, fostering innovation, and advancing the field of data science.
                 </p>
                 <div className="my-2 text-center seperator">
                     &bull; &bull; &bull;
                 </div>
                 <div className="text-center">
-                    <img className="img-fluid rounded" src={"/images/demo_day_evb_bnr.jpg"} alt="" />
+                    <img className="img-fluid rounded" src={"/images/idsai9.jpg"} alt="" />
                 </div>
                 <div className="my-2 text-center seperator">
                     &bull; &bull; &bull;
                 </div>
-                <h2>IDAD Co-Chairs</h2>
-                {/*<img className="img-thumbnail float-end ms-4 col-3" src="./images/man.jpg" alt="about film singapore" />*/}
+                {/*<h2>IDAD Co-Chairs</h2>
+                <img className="img-thumbnail float-end ms-4 col-3" src="./images/man.jpg" alt="about film singapore" />
                 <p>
                     <cite>Prof. Tan Kian Lee</cite> (Data Science, tankl@comp.nus.edu.sg)
                 </p>
@@ -32,10 +29,10 @@ const About = () => {
                 </p>
                 <div className="my-2 text-center seperator">
                     &bull; &bull; &bull;
-                </div>
-                <h2>IDAD Organising Committee</h2>
-                <p>Prof. Huang Zhiyong, Caroline Toh, Ronald Chua, Tay Huimin, Agnes Chee, Joshua Koh</p>
-                
+                </div>*/}
+                <h2>Demo Day Organising Team</h2>
+                <p>Prof. Tan Kian Lee, Caroline Toh, Tay Huimin, Joshua Koh</p>
+                <p></p>
             </article>
         </div>
     );

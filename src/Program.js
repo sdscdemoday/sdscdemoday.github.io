@@ -41,47 +41,33 @@ const Program = () => {
                             <th scope="row">9:10am</th>
                             <td>
                                 <span className="fw-bold">
-                                    Opening Remarks by NUS AI Lab
+                                    Data-Driven Management of COI in Peer Review Venues: Data Science in the Real World
                                 </span>
-                                <br />Asst Prof Harold Soh
+                                <br />Asst Prof Sourav S Bhowmick
                                 <span className="fst-italic">
-                                    <br />Assistant Professor, School of Computing, 
-                                    <br />National University of Singapore
-                                    <br />Associate Director, NUS AI Lab
+                                    <br />Assistant Professor, School of Science and Engineering, 
+                                    <br />Nanyang Technological University
                                 </span>
                             </td>
                             <td>Auditorium</td>
                         </tr>
                         <tr>
-                            <th scope="row">9:20am</th>
+                            <th scope="row">9:40am</th>
                             <td>
                                 <span className="fw-bold">
-                                    How the Risk Landscape Evolved through Pandemic
+                                    Oracle’s Data Driven Technology that powered F1, SailGP, Premier League strategy to win
                                 </span>
-                                <br />Mr Sumit Kumar
+                                <br />Ms Tidaporn Santimanawong
                                 <span className="fst-italic">
-                                    <br />Vice President, Global Commercial Risk Decision Science (Credit & Fraud Risk), 
-                                    <br />American Express Innovation Laboratories Limited
+                                    <br />Senior Director
+                                    <br />Technology Cloud Engineer (Solution Engineer + CSM)
+                                    <br />Oracle ASEAN
                                 </span>
                             </td>
                             <td>Auditorium</td>
                         </tr>
                         <tr>
-                            <th scope="row">10:00am</th>
-                            <td>
-                                <span className="fw-bold">
-                                Making Defence Your Best Attack - How MLOps Can Make You Comply with Regulatory Requirements (Responsible AI and others) and Help You Drive ROI on AI-based Applications/Processes
-                                </span>
-                                <br />Dr Carlos Queiroz
-                                <span className="fst-italic">
-                                    <br />Head of Data Science Engineering (CCIB), 
-                                    <br />Standard Chartered Bank
-                                </span>
-                            </td>
-                            <td>Auditorium</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">10:40am</th>
+                            <th scope="row">10:10am</th>
                             <td>
                                 <span className="fw-bold">
                                     Tea Break
@@ -90,140 +76,95 @@ const Program = () => {
                             <td>Level 2 Foyer</td>
                         </tr>
                         <tr>
-                            {/* Parallel Track 1 */}
+                            {/* Breakout Session 1 */}
                             <td colSpan={3} className="bg-warning text-center">
-                                <span className="fw-bold">Parallel Track 1</span><br/>
+                                <span className="fw-bold">Breakout Room Session 1</span><br/>
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row">11:10am</th>
-                            <td>
-                                <span className="fw-bold text-primary">Talk 1:</span><br/>
-                                <span className="fw-bold">
-                                Computational Models of Human Strategic Behavior
-                                </span>
-                                <br />Assoc Prof Cheng Shih-Fen
-                                <span className="fst-italic">
-                                    <br />Associate Professor of Computer Science,
-                                    <br />School of Computing and Information Systems,
-                                    <br />Singapore Management University
-                                </span>
+                            <th scope="row">10.50am</th>
+                            <td colSpan="2">
+                                <table className="table">
+                                    <tbody>
+                                        <tr>
+                                            <td className="pt-0 px-0">
+                                                <span className="fw-bold">
+                                                    Unleashing the Power of Data for Real-World Impact
+                                                </span>
+                                                <br />Assoc Prof Daniel Wang Zhengkuiz
+                                                <span className="fst-italic">
+                                                    <br />Data Science and AI Lab,
+                                                    <br />Singapore Institute of Technology
+                                                </span>
+                                            </td>
+                                            <td>Auditorium</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="pt-0 px-0">
+                                                <span className="fw-bold">
+                                                    TBA
+                                                </span>
+                                                <br />Mr Sumit Kumar
+                                                <span className="fst-italic">
+                                                    <br />Global Commercial Risk Decision Science,
+                                                    <br />American Express Innovation Lab
+                                                </span>
+                                            </td>
+                                            <td>Clove</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </td>
-                            <td>Auditorium</td>
                         </tr>
                         <tr>
-                            <th scope="row">11:40am</th>
-                            <td>
-                                <span className="fw-bold text-primary">Talk 2:</span><br/>
-                                <span className="fw-bold">
-                                Exploiting Pre-trained Models, Compositionality, and Reasoning Algorithms for Visual-Language Object Placement
-                                </span>
-                                <br />Prof Lee Wee Sun
-                                <span className="fst-italic">
-                                    <br />Head, Department of Computer Science, 
-                                    <br />School of Computing, National University of Singapore
-                                </span>
-                            </td>
-                            <td>Auditorium</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">12:10pm</th>
-                            <td>
-                                <span className="fw-bold text-primary">Talk 3:</span><br/>
-                                <span className="fw-bold">
-                                Practice of Code Intelligence in ByteDance
-                                </span>
-                                <br />Zheng (John) Wang
-                                <span className="fst-italic">
-                                    <br />Staff Software Engineer, ByteDance
-                                </span>
-                            </td>
-                            <td>Auditorium</td>
-                        </tr>
-                        <tr>
-                            {/* Parallel Track 2 */}
+                            {/* Breakout Session 2 */}
                             <td colSpan={3} className="bg-success text-center text-light">
-                                <span className="fw-bold">Parallel Track 2</span><br/>
+                                <span className="fw-bold">Breakout Room Session 2</span><br/>
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row">11:10am</th>
-                            <td>
-                                <span className="fw-bold text-primary">Talk 1:</span><br/>
-                                <span className="fw-bold">
-                                Play, Consume, and Innovate Sports in AI Era
-                                </span>
-                                <br />Dr Masoumeh Izadi
-                                <span className="fst-italic">
-                                    <br />Founder and Managing Director, Television Content Analytics (TVCONAL)
-                                </span>
+                            <th scope="row">11.20am</th>
+                            <td colSpan="2">
+                                {/* Second Breakout Sessions */}
+                                <table className="table">
+                                    <tbody>
+                                        <tr>
+                                            <td className="pt-0 px-0">
+                                                <span className="fw-bold">
+                                                    Hateful Content Moderation with Data Science & AI
+                                                </span>
+                                                <br />Asst Prof Roy Ka-Wei Lee
+                                                <span className="fst-italic">
+                                                    <br />Information Systems and Design,
+                                                    <br />Singapore University of Technology and Design
+                                                </span>
+                                            </td>
+                                            <td>Auditorium</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="pt-0 px-0">
+                                                <span className="fw-bold">
+                                                    ChatGPT. LLMs and Generative AI: What your Business Needs to know                                                </span>
+                                                <br />Mr CK Thum
+                                                <span className="fst-italic">
+                                                    <br />Account Director,
+                                                    <br />Katonic.ai
+                                                </span>
+                                            </td>
+                                            <td>Clove</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
                             </td>
-                            <td>Clove</td>
                         </tr>
                         <tr>
-                            <th scope="row">11:40am</th>
-                            <td>
-                                <span className="fw-bold text-primary">Talk 2:</span><br/>
-                                <span className="fw-bold">
-                                Building Intelligent Applications: A Blueprint for Harnessing the Power of Data, AI, and Analytics to Drive Business
-                                </span>
-                                <br />Mr Amenallah Reghimi
-                                <span className="fst-italic">
-                                    <br />Chief Product & Technology Officer, Perx Technologies
-                                </span>
-                            </td>
-                            <td>Clove</td>
+                            <th scope="row">11:50am</th>
+                            <td><span className="fw-bold">Lunch / Demo Session / Networking</span></td>
+                            <td>Level 2 Benefactor's Foyer / Basil</td>
                         </tr>
                         <tr>
-                            <th scope="row">12:10pm</th>
-                            <td>
-                                <span className="fw-bold text-primary">Talk 3:</span><br/>
-                                <span className="fw-bold">
-                                TBA
-                                </span>
-                                <br />Mr Vivek Gopalkrishnan
-                                <span className="fst-italic">
-                                    <br />PwC
-                                </span>
-                            </td>
-                            <td>Clove</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">12:40pm</th>
-                            <td><span className="fw-bold">Lunch and Demo Session</span></td>
-                            <td>Level 2 Foyer / Lavender</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2:00pm</th>
-                            <td>
-                                <span className="fw-bold">
-                                Multimodal Intelligence: Foundation Models and Beyond 
-                                </span>
-                                <br />Dr Steven Hoi
-                                <span className="fst-italic">
-                                    <br />Managing Director, Salesforce Research Asia
-                                </span>
-                            </td>
-                            <td>Auditorium</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2:45pm</th>
-                            <td>
-                                <span className="fw-bold">
-                                Panel Discussion - Data Intelligence
-                                </span>
-                                <br />Moderator: Prof Ng See-Kiong
-                                <br />Panelists: Dr Carlos Queiroz, Mr Amenallah Reghimi, Assoc Prof Cheng Shih-Fen, Dr Masoumeh Izadi
-                            </td>
-                            <td>Auditorium</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3:30pm</th>
-                            <td><span className="fw-bold">Networking Tea</span></td>
-                            <td>Level 2 Foyer</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">4:00pm</th>
+                            <th scope="row">1:00pm</th>
                             <td><span className="fw-bold">End of Event</span></td>
                             <td></td>
                         </tr>

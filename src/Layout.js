@@ -10,11 +10,11 @@ const Layout = () => {
         <div className="row justify-content-lg-center">
             <div className="col-lg-8 px-0">
                 <header className="border border-dark bg-black">
-                    <img className="img-fluid col-6" alt="Film.sg" src="/images/banner4.jpg" />
+                    <img className="img-fluid col-12" alt="Film.sg" src="/images/banner2.png" />
 
-                    <nav className="navbar navbar-expand-lg navbar-dark bg-black">
+                    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                         <div className="container-fluid">
-                            <a className="navbar-brand" href="#">IDSAI 2023</a>
+                            <a className="navbar-brand" href="#">Industry Demo Day 2023</a>
 
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>

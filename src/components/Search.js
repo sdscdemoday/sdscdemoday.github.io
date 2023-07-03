@@ -28,7 +28,7 @@ const Search = (props) => {
     }, []);
 
     return (
-        <div className="container bg-warning progress-bar-striped mb-2">
+        <div className="container bg-primary progress-bar-striped mb-2">
             <div className="row">
                 <div className="col-lg-10 mx-auto">
                     <form className="row" action="" method="GET">
@@ -40,7 +40,7 @@ const Search = (props) => {
                                 <option key={-1} value="">All Topics</option>
                                 { (props.allGenres || []).map((g,i) => <option key={i} value={g?.name}>{g?.description}</option>) }
                             </select>
-                            <input className="btn btn-success" type="submit" value="Search" onClick={onClick} />
+                            <input className="btn btn-primary" type="submit" value="Search" onClick={onClick} />
                         </div>
                     </form>
                 </div>
