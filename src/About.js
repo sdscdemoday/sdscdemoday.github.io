@@ -3,7 +3,7 @@ const About = () => {
         <div className="container-fluid main-content">
             <article className="about mt-4">
                 <h1>About Singapore Data Science Consortium Industry Demo Day 2023 – Data Science in Practice</h1>
-                <img className="img-thumbnail float-end col-3" src="./images/IDSAI.png" alt="about film singapore" />
+                {/*<img className="img-thumbnail float-end col-3" src="./images/IDSAI.png" alt="about film singapore" />*/}
                 <p className="lead">
                     SDSC's bi-annual Industry Demo Day is an exciting event that brings together data enthusiasts, professionals, and aspiring data scientists to showcase the impact of data-driven projects and innovations. It serves as a platform to demonstrate the power of data science in solving real-world problems, driving decision-making, and unlocking new opportunities.
                 </p>
