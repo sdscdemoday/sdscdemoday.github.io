@@ -102,7 +102,7 @@ const Program = () => {
                                         <tr>
                                             <td className="pt-0 px-0">
                                                 <span className="fw-bold">
-                                                    TBA
+                                                    Helping Small Businesses with Real-Time Credit Decisioning using ML and AI
                                                 </span>
                                                 <br />Mr Sumit Kumar
                                                 <span className="fst-italic">

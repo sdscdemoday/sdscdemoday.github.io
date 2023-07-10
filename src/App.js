@@ -4,6 +4,7 @@ import Layout from "./Layout";
 import Home from "./Home";
 import About from "./About";
 import Program from "./Program";
+import Booth from "./Booth";
 import Register from "./Register";
 import Venue from "./Venue";
 import Submit from "./Submit";
@@ -111,6 +112,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="speaker" element={<Home idb={idb} idbLoaded={idbLoaded} />} />
           <Route path="program" element={<Program />} />
+          <Route path="booth" element={<Booth />} />
           <Route path="register" element={<Register />} />
           <Route path="venue" element={<Venue />} />
           <Route path="submit" element={<Submit />} />

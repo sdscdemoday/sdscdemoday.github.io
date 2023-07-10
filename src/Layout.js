@@ -25,6 +25,7 @@ const Layout = () => {
                                     <li className="nav-item"><Link className={"nav-link " + (location.pathname === "/about" ? "active" : "")} to="/about">Home</Link></li>
                                     <li className="nav-item"><Link className={"nav-link " + (location.pathname === "/speaker" ? "active" : "")} to="/speaker">Speakers</Link></li>
                                     <li className="nav-item"><Link className={"nav-link " + (location.pathname === "/program" ? "active" : "")} to="/program">Program</Link></li>
+                                    <li className="nav-item"><Link className={"nav-link " + (location.pathname === "/booth" ? "active" : "")} to="/booth">Booths</Link></li>
                                     <li className="nav-item"><Link className={"nav-link " + (location.pathname === "/contact" ? "active" : "")} to="/venue">Venue</Link></li>
                                     <li className="nav-item"><Link className={"nav-link " + (location.pathname === "/submit" ? "active" : "")} to="/register">Register</Link></li>
                                 </ul>

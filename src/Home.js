@@ -85,6 +85,7 @@ const Home = (props) => {
     return (
         <div className="main-content">
             <Search onSearch={searchMoviesByTitle} allGenres={genres} defaultGenre={defaultGenre} />
+            <div class="text-center mb-2 text-muted">Click on speaker name for more information.</div>
             <div id="divSearch" className="row row-cols-md-2 row-cols-1 g-2">
                 {
                     /* Dynamic Content */
