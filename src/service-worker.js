@@ -91,7 +91,7 @@ self.addEventListener("install", event => {
         "./favicon.ico",
         "./style.css",
         "./script.js",
-        "./movies.json",
+        //"./movies.json", // Do not cache, treat as live API
         "./manifest.json",
         "./about.html",
         "./contact.html",
