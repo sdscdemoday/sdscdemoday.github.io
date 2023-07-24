@@ -91,7 +91,7 @@ const Program = () => {
                                                 <span className="fw-bold">
                                                     Unleashing the Power of Data for Real-World Impact
                                                 </span>
-                                                <br />Assoc Prof Daniel Wang Zhengkuiz
+                                                <br />Assoc Prof Daniel Wang Zhengkui
                                                 <span className="fst-italic">
                                                     <br />Data Science and AI Lab,
                                                     <br />Singapore Institute of Technology
