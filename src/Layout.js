@@ -14,7 +14,7 @@ const Layout = () => {
 
                     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                         <div className="container-fluid">
-                            <a className="navbar-brand" href="#">Industry Demo Day 2023</a>
+                            <a className="navbar-brand" href="#">Industry Demo Day 2024</a>
 
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
@@ -37,7 +37,7 @@ const Layout = () => {
                 <Outlet />
                 
                 <footer className="bg-dark font-monospace text-muted text-center small rounded-pill mt-2 py-1">
-                    Singapore Data Science Consortium &#169; 2023. All Rights Reserved.
+                    Singapore Data Science Consortium &#169; 2024. All Rights Reserved.
                 </footer>
             </div>
         </div>

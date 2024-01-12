@@ -2,8 +2,8 @@ const About = () => {
     return (
         <div className="container-fluid main-content">
             <article className="about mt-4">
-                <h1>About Singapore Data Science Consortium Industry Demo Day 2023 – Data Science in Practice</h1>
-                {/*<img className="img-thumbnail float-end col-3" src="./images/IDSAI.png" alt="about film singapore" />*/}
+                <h1>About Singapore Data Science Consortium Industry Demo Day 2024 – Practical Data Science: Real-World Problems, Tangible Impact</h1>
+                <img className="img-thumbnail float-end col-3" src="./images/2024/SDSC-logo-blue.png" alt="SDSC" />
                 <p className="lead">
                     SDSC's bi-annual Industry Demo Day is an exciting event that brings together data enthusiasts, professionals, and aspiring data scientists to showcase the impact of data-driven projects and innovations. It serves as a platform to demonstrate the power of data science in solving real-world problems, driving decision-making, and unlocking new opportunities.
                 </p>
@@ -19,6 +19,18 @@ const About = () => {
                 <div className="my-2 text-center seperator">
                     &bull; &bull; &bull;
                 </div>
+                <div className="text-center">
+                    <p className="lead">In Collaboration With</p>
+                    <img src="/images/2024/nus-soc-logo.png" class="col-3 m-1" alt="NUS SOC"></img>
+                    <img src="/images/2024/ntu-logo.jpg" class="col-3 m-1" alt="NTU"></img>
+                    <img src="/images/2024/smu-logo.png" class="col-3 m-1" alt="SMU"></img>
+                    <img src="/images/2024/sutd-logo-black.png" class="col-2 m-1" alt="SUTD"></img>
+                    <img src="/images/2024/sit-logo.png" class="col-2 m-1" alt="SIT"></img>
+                    <img src="/images/2024/lightspeedstudio_logo.jpg" class="rounded col-2 m-1" alt="Tencent Lightspeed Studio"></img>
+                    <img src="/images/2024/logo_meiyume_black.png" class="col-3 m-1" alt="Meiyume"></img>
+                    <img src="/images/2024/HPB_R_V_CMYK_Logo.png" class="col-2 m-1" alt="HPB"></img>
+                    {/*<img src="/images/2024/willdata-logo.jpg" class="col-3 m-1" alt="Will Data"></img>*/}
+                </div>
                 {/*<h2>IDAD Co-Chairs</h2>
                 <img className="img-thumbnail float-end ms-4 col-3" src="./images/man.jpg" alt="about film singapore" />
                 <p>
@@ -30,9 +42,10 @@ const About = () => {
                 <div className="my-2 text-center seperator">
                     &bull; &bull; &bull;
                 </div>*/}
-                <h2>Demo Day Organising Team</h2>
+                {/*<h2>Demo Day Organising Team</h2>
                 <p>Prof. Tan Kian Lee, Caroline Toh, Tay Huimin, Joshua Koh</p>
-                <p></p>
+                <p></p>*/}
+
             </article>
         </div>
     );

@@ -7,7 +7,7 @@ const Register = () => {
                     Please click the link below to register your attendance.
                 </p>
                 <p>
-                    <a type="button" className="btn btn-warning" href="https://sdscdemo23.eventbrite.sg/" target="_blank">Register Now</a>
+                    <a type="button" className="btn btn-warning" href="https://sdscdemo24.eventbrite.sg/" target="_blank">Register Now</a>
                 </p>
                 <div className="my-2 text-center seperator">
                     &bull; &bull; &bull;

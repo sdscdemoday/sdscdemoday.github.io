@@ -19,12 +19,12 @@ const Program = () => {
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">8:30am</th>
+                            <th scope="row">8:40am</th>
                             <td><span className="fw-bold">Registration</span></td>
                             <td>Level 2 Foyer</td>
                         </tr>
                         <tr>
-                            <th scope="row">9:00am</th>
+                            <th scope="row">9:30am</th>
                             <td>
                                 <span className="fw-bold">
                                     Opening Remarks by Singapore Data Science Consortium
@@ -38,30 +38,14 @@ const Program = () => {
                             <td>Auditorium</td>
                         </tr>
                         <tr>
-                            <th scope="row">9:10am</th>
-                            <td>
-                                <span className="fw-bold">
-                                    Data-Driven Management of COI in Peer Review Venues: Data Science in the Real World
-                                </span>
-                                <br />Asst Prof Sourav S Bhowmick
-                                <span className="fst-italic">
-                                    <br />Assistant Professor, School of Science and Engineering, 
-                                    <br />Nanyang Technological University
-                                </span>
-                            </td>
-                            <td>Auditorium</td>
-                        </tr>
-                        <tr>
                             <th scope="row">9:40am</th>
                             <td>
                                 <span className="fw-bold">
-                                    Oracle’s Data Driven Technology that powered F1, SailGP, Premier League strategy to win
+                                    Advancing Game Content Creation with LightSpeed's Self-developed Generative AI Technology
                                 </span>
-                                <br />Ms Tidaporn Santimanawong
+                                <br />Dr Hu Zeyu
                                 <span className="fst-italic">
-                                    <br />Senior Director
-                                    <br />Technology Cloud Engineer (Solution Engineer + CSM)
-                                    <br />Oracle ASEAN
+                                    <br />Tencent, Lightspeed Studios Singapore
                                 </span>
                             </td>
                             <td>Auditorium</td>
@@ -70,31 +54,86 @@ const Program = () => {
                             <th scope="row">10:10am</th>
                             <td>
                                 <span className="fw-bold">
+                                    Diffusion Models for 3D Human Pose and Mesh Recovery
+                                </span>
+                                <br />Asst Prof Liu Jun
+                                <span className="fst-italic">
+                                    <br />Singapore University of Technology and Design
+                                </span>
+                            </td>
+                            <td>Auditorium</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">10:40am</th>
+                            <td>
+                                <span className="fw-bold">
                                     Tea Break
                                 </span>
                             </td>
                             <td>Level 2 Foyer</td>
                         </tr>
                         <tr>
-                            {/* Breakout Session 1 */}
+                            <th scope="row">11.40am</th>
+                            <td>
+                                <span className="fw-bold">
+                                    TBA
+                                </span>
+                                <br />Associate Professor Zhu Feida 
+                                <span className="fst-italic">
+                                    <br />School of Information Systems
+                                    <br />Singapore Management University
+                                </span>
+                            </td>
+                            <td>Auditorium</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">11.50am</th>
+                            <td>
+                                <span className="fw-bold">
+                                    Smart Beauty Trend Engine for Beauty Product Trend Analysis
+                                </span>
+                                <br />Mr Robert Brockman
+                                <span className="fst-italic">
+                                    <br />Vice President, Digital Solutions Marketing & Product Development
+                                    <br />Meiyume
+                                </span>
+                            </td>
+                            <td>Auditorium</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">12.20am</th>
+                            <td>
+                                <span className="fw-bold">
+                                    Enabling Precision in Public Health through Data Democratisation
+                                </span>
+                                <br />Ms Neo Yi Lin
+                                <span className="fst-italic">
+                                    <br />Deputy Director
+                                    <br />Health Promotion Board
+                                </span>
+                            </td>
+                            <td>Auditorium</td>
+                        </tr>
+                        {/*<tr>
+                            <!-- Breakout Session 1 -->
                             <td colSpan={3} className="bg-warning text-center">
                                 <span className="fw-bold">Breakout Room Session 1</span><br/>
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row">10.50am</th>
+                            <th scope="row">11.20am</th>
                             <td colSpan="2">
                                 <table className="table">
                                     <tbody>
                                         <tr>
                                             <td className="pt-0 px-0">
                                                 <span className="fw-bold">
-                                                    Unleashing the Power of Data for Real-World Impact
+                                                    TBA
                                                 </span>
-                                                <br />Assoc Prof Daniel Wang Zhengkui
+                                                <br />Associate Professor Zhu Feida 
                                                 <span className="fst-italic">
-                                                    <br />Data Science and AI Lab,
-                                                    <br />Singapore Institute of Technology
+                                                    <br />School of Information Systems
+                                                    <br />Singapore Management University
                                                 </span>
                                             </td>
                                             <td>Auditorium</td>
@@ -117,7 +156,7 @@ const Program = () => {
                             </td>
                         </tr>
                         <tr>
-                            {/* Breakout Session 2 */}
+                            <!-- Breakout Session 2 -->
                             <td colSpan={3} className="bg-success text-center text-light">
                                 <span className="fw-bold">Breakout Room Session 2</span><br/>
                             </td>
@@ -125,7 +164,7 @@ const Program = () => {
                         <tr>
                             <th scope="row">11.20am</th>
                             <td colSpan="2">
-                                {/* Second Breakout Sessions */}
+                                <!-- Second Breakout Sessions -->
                                 <table className="table">
                                     <tbody>
                                         <tr>
@@ -157,14 +196,14 @@ const Program = () => {
                                 </table>
 
                             </td>
-                        </tr>
+                        </tr>*/}
                         <tr>
-                            <th scope="row">11:50am</th>
+                            <th scope="row">12:50am</th>
                             <td><span className="fw-bold">Lunch / Demo Session / Networking</span></td>
-                            <td>Level 2 Benefactor's Foyer / Basil</td>
+                            <td>Level 2 Foyer / Basil</td>
                         </tr>
                         <tr>
-                            <th scope="row">1:00pm</th>
+                            <th scope="row">2:00pm</th>
                             <td><span className="fw-bold">End of Event</span></td>
                             <td></td>
                         </tr>

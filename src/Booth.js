@@ -7,15 +7,15 @@ const Booth = () => {
                     See below for list of exhibiting booths
                 </p>
                 <ol>
-                    <li>DAVINZ: Data Visualization using Deep Neural Networks at Initialization</li>
-                    <li>Aligning Dual Disentangled User Representations from Ratings and Textual Content</li>
-                    <li>Deciphering the Noisy Landscape: Architectural Conceptual Design Space Interpretation using Disentangled Representation Learning</li>
+                    <li>Designing efficient transformers for trajectory classification</li>
                     <li>Uncertainties in Deforestation Emission Baseline Methodologies and Implications for Carbon Markets</li>
-                    <li>AI/ML at Scale in AMEX</li>
-                    <li>Willdata - Empowering AI Development with Ground Truth Data</li>
-                    <li>Dealing with Missing Values in Proteomic Data</li>
-                    <li>Sequence-Level Neural Abstractive Summarization</li>
-                    <li>Unlock the power of Generative AI for your business with the Katonic Generative AI Platform</li>
+                    <li>ProJect: A powerful mixed-model missing value imputation method</li>
+                    <li>Use your INSTINCT: INSTruction optimization using Neural bandits Coupled with Transformers</li>
+                    <li>Analyzing abstractive summarization from LLMs</li>
+                    <li>Willdata, TBA</li>
+                    <li>Multimodal Hateful Content Moderation</li>
+                    <li>SIT, TBA</li>
+                    <li>SIT, TBA</li>
                 </ol>
                 <div className="my-2 text-center seperator">
                     &bull; &bull; &bull;

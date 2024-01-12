@@ -104,11 +104,10 @@ const Home = (props) => {
 
                         return (
                             <div className="col" key={index}>
+                                <Link className="link-dark text-decoration-none" to={"/review/" + movie["movie_id"]}>
                                 <article className="card">
                                     <div className="card-body">
-                                        <Link className="link-dark" to={"/review/" + movie["movie_id"]}>
-                                            <h5 className="card-title">{movie["name"]}</h5>
-                                        </Link>
+                                        <h5 className="card-title">{movie["name"]}</h5>
                                         <h6 class="card-subtitle mb-2 text-muted">{movie["org"]}</h6>
                                         {/*<span className={star > 2 ? "text-warning" : "text-danger" + " stars"}>
                                             {strStars}
@@ -116,9 +115,7 @@ const Home = (props) => {
                                     </div>
                                     <img className="card-img" src={movie["image"]} alt={movie["name"]} />
                                     <div className="card-body">
-                                        <Link className="link-dark text-decoration-none" to={"/review/" + movie["movie_id"]}>
-                                            <i class="card-subtitle mb-2">Topic: {Boolean(movie["title"]?.trim()) ? movie["title"] : "TBC"}</i>
-                                        </Link>
+                                        <i class="card-subtitle mb-2">Topic: {Boolean(movie["title"]?.trim()) ? movie["title"] : "TBC"}</i>
                                     </div>
                                     <div className="card-footer">
                                         <p className="card-text">
@@ -126,6 +123,7 @@ const Home = (props) => {
                                         </p>
                                     </div>
                                 </article>
+                                </Link>
                             </div>
                         )
                     }) : <></>
