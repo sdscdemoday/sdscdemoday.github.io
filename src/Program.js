@@ -45,7 +45,7 @@ const Program = () => {
                                 </span>
                                 <br />Dr Hu Zeyu
                                 <span className="fst-italic">
-                                    <br />Tencent, Lightspeed Studios Singapore
+                                    <br />Lightspeed Studios Singapore
                                 </span>
                             </td>
                             <td>Auditorium</td>

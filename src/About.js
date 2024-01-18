@@ -26,7 +26,8 @@ const About = () => {
                     <img src="/images/2024/smu-logo.png" class="col-3 m-1" alt="SMU"></img>
                     <img src="/images/2024/sutd-logo-black.png" class="col-2 m-1" alt="SUTD"></img>
                     <img src="/images/2024/sit-logo.png" class="col-2 m-1" alt="SIT"></img>
-                    <img src="/images/2024/lightspeedstudio_logo.jpg" class="rounded col-2 m-1" alt="Tencent Lightspeed Studio"></img>
+                    <img src="/images/2024/logo_landscape_blue_lightspeed_studio.png" class="col-3 m-1" alt="Lightspeed Studio"></img>
+                    <img src="/images/2024/tencent-logo-png-transparent.png" class="col-3 m-1" alt="Tencent"></img>
                     <img src="/images/2024/logo_meiyume_black.png" class="col-3 m-1" alt="Meiyume"></img>
                     <img src="/images/2024/HPB_R_V_CMYK_Logo.png" class="col-2 m-1" alt="HPB"></img>
                     {/*<img src="/images/2024/willdata-logo.jpg" class="col-3 m-1" alt="Will Data"></img>*/}
