@@ -43,9 +43,9 @@
         "boxOffice": 50000000,
         "director": "Zimmerman C.",
         "releaseDate": "2021-08-08",
-        "title": "TBA",
-        "abstract": "",
-        "description": ""
+        "title": "When AI Meet Web 3 for Sustainable Digital Economy",
+        "abstract": "The recent boom of AI brings along with all the wonderful innovations concerns about the governance issues, in particular when the application context is bound to be increasingly collaborative in nature.  How to provide both trust and incentive when data, model and computational resources come from different entities? Web3 offers a solution. In this talk we will give an overview for the potential integration between AI and Web3, with the challenges and core technical components.  A few examples will also be given to illustrate the marriage between the two.",
+        "description": "His research interests include large-scale data mining and machine learning, blockchain and data asset, text mining, graph/network mining and social network analysis, with emphasis on their application to business, financial and consumer innovation. He was the founding director of the Pinnacle Lab for Analytics with China Ping An Insurance Group which focuses on social media and mobile data mining and analysis for finance industry with millions of dollars of support. The lab has nurtured a series of innovation and applications in the area of banking and insurance from underlying research breakthroughs in data mining and machine learning. Over the years, the outstanding work from the lab have helped Fortune-500 and other leading industrial giants in a number of industries with customized application platforms powered by big data engine. Prof. ZHU is also the founding director of DBS-SMU Life Analytics Lab, and the Founder and ChiefScientist of SYMPHONY, a Web3 blockchain-based protocol to empower a data-driven economy by democratized and collaborative data Intelligence with privacy by design. Prof. ZHU has over 100 peer-reviewed research publications at top international venues, including ICDE, VLDB, SIGMOD,KDD, WWW, JMLR, TODS, TKDE, etc."
     },
     {
         "movie_id": 4,
@@ -66,7 +66,7 @@
     {
         "movie_id": 5,
         "name": "Mr Robert Brockman",
-        "org": "Vice President, Digital Solutions Marketing & Product development, Meiyume",
+        "org": "Vice President, Digital Solutions Marketing & Product development, Meiyume Singapore",
         "image": "images/2024/robert-brockman-iv.jpg",
         "imageLarge": "images/2024/robert-brockman-iv.jpg",
         "type": 2,
@@ -75,7 +75,7 @@
         "boxOffice": 10000000,
         "director": "Niki Caro",
         "releaseDate": "2019-09-09",
-        "title": "Smart Beauty Trend Engine for Beauty Product Trend Analysis",
+        "title": "Beauty Intelligence Platform for Product & Sentiment Analysis",
         "abstract": "The MEIYUME and NUS Beauty Intelligence Platform revolutionizes the beauty industry with its real-time trend validation and detailed analysis of product sentiment, claims efficacy, consumer feedback, and competitor performance. This advanced AI tool provides vital insights at scale, helping Meiyume’s clients stay ahead in the fast-changing beauty market by aligning with consumer preferences and upcoming trends.",
         "description": "Robert Brockman is a seasoned Information Technology professional with over 15 years of experience driving digital innovation and transformation. His expertise lies in developing and executing strategic digital initiatives, leveraging emerging technologies, and fostering a digital-first culture to deliver sustainable business growth. Robert also drive research project within the data analytics centre in Meiyume and strategies for future R&D such as consumer behaviour and AI machine learning for further customer data insights. He is currently overseeing cross-functional teams and built lasting partnerships with stakeholders to align digital strategies with overall business objectives. Passionate about harnessing the power of data, Robert also has a strong track record of enhancing digital performance through data-driven decision-making."
     }
