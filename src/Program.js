@@ -76,7 +76,7 @@ const Program = () => {
                             <th scope="row">11.40am</th>
                             <td>
                                 <span className="fw-bold">
-                                    TBA
+                                    When AI Meet Web 3 for Sustainable Digital Economy
                                 </span>
                                 <br />Associate Professor Zhu Feida 
                                 <span className="fst-italic">
@@ -90,12 +90,12 @@ const Program = () => {
                             <th scope="row">11.50am</th>
                             <td>
                                 <span className="fw-bold">
-                                    Smart Beauty Trend Engine for Beauty Product Trend Analysis
+                                    Beauty Intelligence Platform for Product & Sentiment Analysis
                                 </span>
                                 <br />Mr Robert Brockman
                                 <span className="fst-italic">
                                     <br />Vice President, Digital Solutions Marketing & Product Development
-                                    <br />Meiyume
+                                    <br />Meiyume Singapore
                                 </span>
                             </td>
                             <td>Auditorium</td>

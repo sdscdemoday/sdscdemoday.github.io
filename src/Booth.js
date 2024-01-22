@@ -12,10 +12,7 @@ const Booth = () => {
                     <li>ProJect: A powerful mixed-model missing value imputation method</li>
                     <li>Use your INSTINCT: INSTruction optimization using Neural bandits Coupled with Transformers</li>
                     <li>Analyzing abstractive summarization from LLMs</li>
-                    <li>Willdata, TBA</li>
                     <li>Multimodal Hateful Content Moderation</li>
-                    <li>SIT, TBA</li>
-                    <li>SIT, TBA</li>
                 </ol>
                 <div className="my-2 text-center seperator">
                     &bull; &bull; &bull;
