@@ -10,8 +10,10 @@ const Layout = () => {
         <div className="row justify-content-lg-center">
             <div className="col-lg-8 px-0">
                 <header className="border border-dark bg-black">
-                    <img className="img-fluid col-12" alt="Film.sg" src="/images/banner2.png" />
-
+                    <div className="position-relative">
+                        <img className="img-fluid col-12" alt="Film.sg" src="/images/banner2.png" />
+                        <h5 className="my-0"><span className="badge bg-warning text-dark position-absolute bottom-50 end-0 ">27 FEBRUARY 2024</span></h5>
+                    </div>
                     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                         <div className="container-fluid">
                             <a className="navbar-brand" href="#">Industry Demo Day 2024</a>
