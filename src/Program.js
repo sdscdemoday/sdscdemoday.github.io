@@ -73,7 +73,7 @@ const Program = () => {
                             <td>Level 2 Foyer</td>
                         </tr>
                         <tr>
-                            <th scope="row">11.40am</th>
+                            <th scope="row">11.20am</th>
                             <td>
                                 <span className="fw-bold">
                                     When AI Meet Web 3 for Sustainable Digital Economy
