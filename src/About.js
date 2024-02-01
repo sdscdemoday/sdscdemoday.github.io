@@ -30,7 +30,7 @@ const About = () => {
                     <img src="/images/2024/tencent-logo-png-transparent.png" class="col-3 m-1" alt="Tencent"></img>
                     <img src="/images/2024/logo_meiyume_black.png" class="col-3 m-1" alt="Meiyume"></img>
                     <img src="/images/2024/HPB_R_V_CMYK_Logo.png" class="col-2 m-1" alt="HPB"></img>
-                    {/*<img src="/images/2024/willdata-logo.jpg" class="col-3 m-1" alt="Will Data"></img>*/}
+                    <img src="/images/2024/willdata_logo.png" class="col-4 m-1" alt="Will Data"></img>
                 </div>
                 {/*<h2>IDAD Co-Chairs</h2>
                 <img className="img-thumbnail float-end ms-4 col-3" src="./images/man.jpg" alt="about film singapore" />
