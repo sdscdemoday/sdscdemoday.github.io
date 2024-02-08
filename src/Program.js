@@ -56,8 +56,9 @@ const Program = () => {
                                 <span className="fw-bold">
                                     Diffusion Models for 3D Human Pose and Mesh Recovery
                                 </span>
-                                <br />Asst Prof Liu Jun
+                                <br />Mr Foo Lin Geng
                                 <span className="fst-italic">
+                                    <br />Researcher
                                     <br />Singapore University of Technology and Design
                                 </span>
                             </td>

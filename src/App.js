@@ -29,7 +29,8 @@ function App() {
 
     // Track Past IDB Versions
     const IDB_VERSIONS = {
-      CURRENT: 10,
+      CURRENT: 11,
+      FEB_2024_08: 11,
       JAN_2024_22: 10,
       JAN_2024_18: 9,
       JAN_2024_12: 8,
