@@ -17,10 +17,10 @@
     },
     {
         "movie_id": 2,
-        "name": "Asst Prof Liu Jun",
+        "name": "Mr Foo Lin Geng",
         "org": "Singapore University of Technology and Design",
-        "image": "images/2024/liujun.png",
-        "imageLarge": "images/2024/liujun.png",
+        "image": "images/2024/lingeng.jpg",
+        "imageLarge": "images/2024/lingeng.jpg",
         "type": 2,
         "typename": "ai",
         "star": 4,
@@ -29,7 +29,7 @@
         "releaseDate": "2021-08-08",
         "title": "Diffusion Models for 3D Human Pose and Mesh Recovery",
         "abstract": "3D pose and mesh recovery is important for human behaviour understanding and game development. Meanwhile, diffusion models have achieved impressive performance for image and video generation tasks. We are the first to apply diffusion models to handle 3D pose and mesh recovery from monocular images and videos, and we created several key techniques enabling diffusion models to work well in handling this task.",
-        "description": "Jun Liu is an assistant professor in Singapore University of Technology and Design. His research interests include computer vision and artificial intelligence. He has published more than 100 papers in premier computer vision journals and conferences, including TPAMI, CVPR, ICCV, and ECCV. He is listed in the top 2% scientists worldwide identified by Stanford University in 2021-2023. He is an Associate Editor of IEEE Transactions on Image Processing and IEEE Transactions on Biometrics, Behavior, and Identity Science, and serves as an Area Chair of top-tier conferences, like CVPR, ECCV, ICML, NeurIPS, and ICLR. His Google Scholar citations reach 11000."
+        "description": "Mr. Foo Lin Geng is currently a PhD student at Singapore University of Technology and Design (SUTD), and his research is supported by the President's Graduate Fellowship. His advisor is Prof. Liu Jun from the Information Systems and Design (ISTD) pillar. Prior to this, he obtained his Bachelor's Degree in Engineering Systems and Design (ESD), Summa Cum Laude (highest honors) from SUTD in 2019, where he also obtained the Keppel Award of Excellence in both 2018 and 2019, and the EY Business Analytics Award (awarded to the top student in the business analytics track). His current research interests include video analysis, activity understanding, and dynamic neural networks."
     },
     {
         "movie_id": 3,
